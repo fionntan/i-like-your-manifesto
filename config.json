@@ -1,0 +1,11 @@
+{
+    "data_paths": {
+        "raw_pdfs": "data/raw_pdfs/",
+        "processed_texts": "data/processed_texts/"
+    },
+    "pdf_files": {
+        "Fianna Fáil GE 2020": "Fianna Fail GE 2020.pdf",
+        "Fine Gael GE 2020": "Fine Gael GE 2020.pdf",
+        "Sinn Fein GE 2020": "Sinn Fein GE 2020.pdf"
+    }
+}
