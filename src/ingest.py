@@ -24,7 +24,7 @@ def process_pdfs(config: dict):
     pdf_files = config['pdf_files']
     project_root = utils.get_project_root()
     for title, filename in pdf_files.items():
-        pdf_path = os.path.join(raw_pdfs_path, filename)
+        pdf_path = project_root / 'data/raw_pdfs/' / filename
         print(f"{pdf_path}")
         print(os.path.exists(pdf_path))
         # print(f"Processing {title} from {pdf_path}")
